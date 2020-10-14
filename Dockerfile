@@ -12,6 +12,7 @@ LABEL homepage="https://github.com/mgenteluci/cloudformation-deploy-action"
 LABEL maintainer="Matheus Genteluci <mgenteluci97@gmail.com>"
 
 ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ="Asia/Tokyo"
 
 RUN apt-get update && apt-get install -y awscli
 
